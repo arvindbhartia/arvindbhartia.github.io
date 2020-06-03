@@ -1,0 +1,28 @@
+  <footer class="site-footer">
+    <div class="row-fluid">
+      <div class="container">
+        <p>{{ site.title }} . All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <nav class="mobile-nav">
+    <ul class="nav">
+      <li><h3>Site</h3></li>
+	<li><a href="{{ site.baseurl }}/"{% if page.categories contains 'example' %} class="active"{% endif %}>Home</a></li>
+      <!-- <li><a href="{{ site.baseurl }}/Projects/"{% if page.categories contains 'example' %} class="active"{% endif %}>About Me</a></li> -->
+      <li><a href=""{% if page.categories contains 'example' %} class="active"{% endif %}>About Me</a></li>
+      <li><a href=""{% if page.categories contains 'documentation' %} class="active"{% endif %}>Murals</a></li>
+      <li><a href=""{% if page.categories contains 'documentation' %} class="active"{% endif %}>Portraits</a></li>
+      <li><a href=""{% if page.categories contains 'documentation' %} class="active"{% endif %}>Sculptures</a></li>
+      <li><a href=""{% if page.categories contains 'documentation' %} class="active"{% endif %}>Name Plates</a></li>
+      <li><a href=""{% if page.categories contains 'documentation' %} class="active"{% endif %}>Poems</a></li>
+      <!-- <li><a href=""{% if page.categories contains 'library' or page.categories contains 'component' %} class="active"{% endif %}>Poems</a></li> -->
+	<li class="last"><a href="{{ site.baseurl }}/Contact/"{% if page.categories contains 'example' %} class="active"{% endif %}>Contact me</a></li>
+      <li><h3>Contact</h3></li>
+      <li><a href="mailto:dreamdesign.art@gmail.com"class="email">Mail</a></li>
+      <li><a href="https://www.facebook.com/arvindkumar.bhartia.9" class="share">Linkedin</a></li>
+    </ul>
+  </nav>
